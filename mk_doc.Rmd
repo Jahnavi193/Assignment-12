@@ -1,0 +1,44 @@
+---
+title: "Markdown Document"
+author: "Jahnavi"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+This is my first markdown document.
+
+Let's load some data.
+
+```{r}
+library(datasets)
+data("airquality")
+summary("airquality")
+```
+
+I used head command to get  rows of the dataset
+
+```{r}
+head(airquality)
+```
+
+Here's a pairs plot of data.
+
+```{r}
+pairs(airquality)
+```
+
+The summary function provides the mean,median,quartiles of the data.
+
+```{r}
+summary(airquality)
+```
+
+
+
+
+
+
+
+
+
+
